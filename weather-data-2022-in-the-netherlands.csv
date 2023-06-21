@@ -1,0 +1,186 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Weather Data 2022 in The Netherlands | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Data on Temperature, Wind, Sun, Air Pressure and Precipitation" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="tabular,europe,weather and climate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="leO/yeBEA&#x2B;8wzKDqHVVGww==" type="text/javascript">
+    window["pageRequestStartTime"] = 1687117854501;
+    window["pageRequestEndTime"] = 1687117854679;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="leO/yeBEA&#x2B;8wzKDqHVVGww==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="canonical" href="/datasets/harold511/weather-data-2022-in-the-netherlands" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=347bcfc883299a7a24f3" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=81f9b0bf40d37d37cc8f" />
+  
+    
+ 
+      <script nonce="leO/yeBEA&#x2B;8wzKDqHVVGww==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="leO/yeBEA&#x2B;8wzKDqHVVGww==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="leO/yeBEA&#x2B;8wzKDqHVVGww==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+  
+    
+    <meta property="og:url" content="/datasets/harold511/weather-data-2022-in-the-netherlands" />
+    <meta property="og:title" content="Weather Data 2022 in The Netherlands" />
+    <meta property="og:description" content="Data on Temperature, Wind, Sun, Air Pressure and Precipitation" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/3155164/5460642/b773f367141a247e72e227ee73e8bc3b/dataset-card.png?t=2023-04-19-19-59-57" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="leO/yeBEA+8wzKDqHVVGww==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Weather Data 2022 in The Netherlands","description":"This dataset contains data on temperature, wind, sun hours, air pressure and precipitation for the Netherlands. There is data for every day in 2022, and for a large number weather stations all across the Netherlands. It was sourced directly from the Dutch Meteorological Institute and then cleaned to remove missing values and transform measurements into more useful units.","url":"https://www.kaggle.com/harold511/weather-data-2022-in-the-netherlands","version":3,"keywords":["data type, tabular","geography and places, europe","subject, earth and nature, environment, weather and climate"],"license":{"@type":"CreativeWork","name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"identifier":["3155164"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Hazah97","url":"https://www.kaggle.com/harold511","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/harold511/weather-data-2022-in-the-netherlands/download?datasetVersionNumber=3","contentSize":"137790 bytes"}],"commentCount":0,"dateModified":"2023-04-19T20:07:26.387Z","discussionUrl":"https://www.kaggle.com/harold511/weather-data-2022-in-the-netherlands/discussion","alternateName":"Data on Temperature, Wind, Sun, Air Pressure and Precipitation","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/3155164/5460642/b773f367141a247e72e227ee73e8bc3b/dataset-card.png?t=2023-04-19-19-59-57","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":15},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":98},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":1}]}</script>
+
+
+  
+    
+
+  
+    
+
+
+    <script nonce="leO/yeBEA&#x2B;8wzKDqHVVGww==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="leO/yeBEA&#x2B;8wzKDqHVVGww==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="leO/yeBEA+8wzKDqHVVGww==" src="/static/assets/runtime.js?v=924317aadef00433bbec" data-turbolinks-track="reload"></script>
+  <script nonce="leO/yeBEA+8wzKDqHVVGww==" src="/static/assets/vendor.js?v=6f1e191acd85fb597315" data-turbolinks-track="reload"></script>
+  <script nonce="leO/yeBEA+8wzKDqHVVGww==" src="/static/assets/app.js?v=b92e534c1811ff455267" data-turbolinks-track="reload"></script>
+    <script nonce="leO/yeBEA&#x2B;8wzKDqHVVGww==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+<div id="site-container"></div>
+
+<div id="site-body" class="hide">
+    
+
+<div data-component-name="DatasetMaterialContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="leO/yeBEA+8wzKDqHVVGww==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"basics":{"datasetId":3155164,"slug":"weather-data-2022-in-the-netherlands","title":"Weather Data 2022 in The Netherlands","description":"This dataset contains data on temperature, wind, sun hours, air pressure and precipitation for the Netherlands. There is data for every day in 2022, and for a large number weather stations all across the Netherlands. It was sourced directly from the Dutch Meteorological Institute and then cleaned to remove missing values and transform measurements into more useful units.","viewCount":98,"downloadCount":15,"scriptCount":1,"owner":{"id":3106978,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","name":"Hazah97","profileUrl":"/harold511","slug":"harold511","userTier":"CONTRIBUTOR"},"license":{"id":1,"name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"overview":"Data on Temperature, Wind, Sun, Air Pressure and Precipitation","collaboratorList":{"owner":{"userId":3106978,"profileUrl":"/harold511","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","name":"Hazah97","slug":"harold511","userTier":"CONTRIBUTOR","type":"OWNER"}},"coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/3155164/5460642/b773f367141a247e72e227ee73e8bc3b/dataset-cover.png?t=2023-04-19-19-59-57","data":{"totalSize":137790,"isFileset":true,"canDownload":true,"firestorePath":"HgKGtVwu6ixdEZOauS8F/versions/3U3eMDXQPLf5ebHU8Xim","downloadUrl":"/datasets/harold511/harold511/download?datasetVersionNumber=3","versionId":5534880,"id":3198098},"voteCount":1,"downloadUrl":"/datasets/harold511/weather-data-2022-in-the-netherlands/download?datasetVersionNumber=3","lastUpdateTime":"2023-04-19T20:07:26.387Z","datasetVersionNumber":3,"creatorDisplayName":"Hazah97","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/3155164/5460642/b773f367141a247e72e227ee73e8bc3b/dataset-card.png?t=2023-04-19-19-59-57","categories":{"tags":[{"id":14101,"name":"tabular","fullPath":"data type \u003E tabular","listingUrl":"/datasets?group=public\u0026tagids=14101","description":"","datasetCount":6843,"competitionCount":6273,"notebookCount":5355,"tagUrl":"/tags/tabular-data","displayName":"Tabular"},{"id":3100,"name":"europe","fullPath":"geography and places \u003E europe","listingUrl":"/datasets?group=public\u0026tagids=3100","description":"You can find some European linguistic type datasets here as well as other European-like datasets and kernels.","datasetCount":896,"notebookCount":178,"tagUrl":"/tags/europe","displayName":"Europe"},{"id":7408,"name":"weather and climate","fullPath":"subject \u003E earth and nature \u003E environment \u003E weather and climate","listingUrl":"/datasets?group=public\u0026tagids=7408","description":"Weather datasets and kernels come in all wind speeds and directions. You have weather data about hurricanes and other inclement phenomena, hourly readings, and general weather for various cities.","datasetCount":870,"competitionCount":5,"notebookCount":473,"tagUrl":"/tags/weather","displayName":"Weather and Climate"}]},"datasetExternalUrl":"https://www.kaggle.com/datasets/harold511/weather-data-2022-in-the-netherlands","forumId":3219174,"datasetVersionId":5460717,"canCreateTasks":true,"moderationStatus":"PRIVATED_MODERATION_STATUS_NO_ABUSE","lastVersionNumber":3,"diffType":"UNVERSIONED"},"accessedViaHashLink":false});performance && performance.mark && performance.mark("DatasetMaterialContainer.componentCouldBootstrap");</script><script nonce="leO/yeBEA&#x2B;8wzKDqHVVGww==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="leO/yeBEA&#x2B;8wzKDqHVVGww==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
